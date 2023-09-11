@@ -125,8 +125,8 @@ fig, axs = plt.subplots(1, 2, figsize=(12, 5))
 
 # Curva de aprendizaje
 axs[0].plot(range(1, ctdr + 1), error_acumulado)
-axs[0].set_xlabel('Epochs')
-axs[0].set_ylabel('Error Percentage')
+axs[0].set_xlabel('Epocas')
+axs[0].set_ylabel('Error en Porcentaje')
 axs[0].set_title('Curva de Aprendizaje')
 axs[0].grid(True)
 
@@ -143,4 +143,3 @@ plt.tight_layout()
 plt.show()
 
 
-   

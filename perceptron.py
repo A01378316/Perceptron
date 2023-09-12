@@ -71,6 +71,7 @@ Vnegativo = 0#Contabilizara los Negativos que son correctos
 Fnegativo = 0#Contabilizara los Negativos que son incorrectos
 
 #Ciclo de control por epoca
+#Ademas el ciclo impirme cada corrida para que sea visible la generalización
 for epoca in range(epocas):
     errorT = 0
     ctdr = ctdr + 1
